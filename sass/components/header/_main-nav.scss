@@ -1,0 +1,9 @@
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__logo {
+    color: #000000;
+  }
+}
