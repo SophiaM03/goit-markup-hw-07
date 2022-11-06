@@ -1,7 +1,4 @@
 .team {
-  background-color: #f5f4fa;
-}
-.team__list {
   display: flex;
   justify-content: center;
 }
@@ -35,45 +32,4 @@
 .team__information {
   padding-top: 30px;
   padding-bottom: 30px;
-}
-
-.team__net-list {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
-.team__net-link {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--white-background-color);
-  border-radius: 50%;
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-  &:hover,
-  &:focus {
-    background-color: var(--accent-color);
-  }
-}
-
-.team__net-icon {
-  fill: #afb1b8;
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-  .team__net-link:hover & {
-    fill: var(--white-text-color);
-  }
-  .team__net-link:focus & {
-    fill: var(--white-text-color);
-  }
-}
-.team__net-item {
-  width: 44px;
-  height: 44px;
 }
